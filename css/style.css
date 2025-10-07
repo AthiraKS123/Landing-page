@@ -1,13 +1,11 @@
 @import url("satoshi.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
-
 body {
   margin: 0;
   font-family: "Satoshi-Regular";
 }
 .section {
-  
   color: #fff;
   overflow: hidden;
 }
@@ -199,13 +197,14 @@ body {
 
 .top-container2 {
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   border: 15px solid white;
   background-color: #003d8e;
   border-radius: 30px;
   position: relative;
   display: flex;
-  flex-direction: column;
+justify-content: space-between;
+  /* flex-direction: column; */
 }
 .program-overview-btn {
   margin-top: 60px;
@@ -233,7 +232,7 @@ body {
   font-weight: 1000;
   letter-spacing: -7px;
   display: flex;
-  
+
   position: relative;
 }
 .presenting img {
@@ -258,13 +257,12 @@ body {
   width: 30rem;
 }
 
-.container-right{
+.section2 .container-right {
   position: relative;
 }
 .container-right img {
   position: absolute;
   bottom: 2px;
-
   width: 40.8rem;
   height: 33rem;
   color: #0e4998;
@@ -278,8 +276,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- 
-  margin-right:20px;
+
+  margin-right: 20px;
 }
 
 .parent-box {
@@ -816,9 +814,8 @@ label {
 }
 .section6 .container .text-img-container h1 {
   width: 45rem;
-  color: #711A79;
+  color: #711a79;
   text-align: center;
-
 }
 
 .section6 .container .calendar {
@@ -847,11 +844,10 @@ label {
   text-align: center;
 }
 
-.section6 .container  .text-container {
+.section6 .container .text-container {
   position: relative;
   height: 30rem;
 }
-
 
 .section6 .container .text-container h1 {
   padding: 0rem 5rem 0 5rem;
@@ -888,7 +884,6 @@ label {
 .section6 .container .text-container button .arrow {
   height: 1rem;
   width: 1rem;
- 
 }
 .section6 .container .calendar-img {
   height: 20rem;
@@ -995,7 +990,7 @@ label {
   border-radius: 20px;
   margin: 80px 30px;
   display: flex;
- 
+
   justify-content: space-between;
   gap: 3rem;
   padding: 0 6rem;
@@ -1026,12 +1021,12 @@ label {
   top: 15rem;
   left: 4rem;
 }
-.section8 .container .right-container h1{
-height: 2rem;
-width: 14rem;
-margin-bottom: 8rem;
-font-size: 2.2rem;
-font-family: "Satoshi-Black";
+.section8 .container .right-container h1 {
+  height: 2rem;
+  width: 14rem;
+  margin-bottom: 8rem;
+  font-size: 2.2rem;
+  font-family: "Satoshi-Black";
 }
 
 .section8 .container .right-container {
@@ -1082,7 +1077,6 @@ font-family: "Satoshi-Black";
   width: 28rem;
   height: auto;
 }
-
 
 .section9 {
   background-color: #6a1b9a; /* Purple background like in your image */
@@ -1146,7 +1140,6 @@ font-family: "Satoshi-Black";
   display: flex;
   justify-content: space-between;
 }
-
 
 .section9 .footer-section {
   padding: 40px 0;
