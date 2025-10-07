@@ -263,10 +263,10 @@ body {
 }
 .container-right img {
   position: absolute;
-  bottom: 2rem;
+  bottom: 2px;
 
   width: 40.8rem;
-  height: 30rem;
+  height: 33rem;
   color: #0e4998;
   display: flex;
 
@@ -278,7 +278,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 100px;
+ 
+  margin-right:20px;
 }
 
 .parent-box {
